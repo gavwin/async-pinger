@@ -1,0 +1,20 @@
+{
+  "name": "async-pinger",
+  "description": "Asynchronously ping things with async-pinger.",
+  "keywords": [
+    "pinger",
+    "async-pinger",
+    "website-pinger"
+  ],
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gavwin/async-pinger.git"
+  },
+  "dependencies":{
+      "net-ping": "*"
+   },
+  "author": "Gavin Wainwright",
+  "main": "./index.js",
+  "license": "MIT"
+}
