@@ -10,7 +10,7 @@ Ping a website asynchronously with async-pinger.
 ```js
 const ping = require('async-pinger');
 
-ping('google.com', function(err, ms) {
+ping('google.com', (err, ms) => {
   if (err) console.error(err);
   console.log(`took ${ms}ms to ping google.com`);
 });
